@@ -1,5 +1,5 @@
 const targetElements = {
-    parent: document.querySelector('#main-container'),
+    parent: document.querySelector("#main-container > div > div.header"),
     payload: document.createElement('div')
 }
 targetElements.payload.payloadinnerHTML= 'Hello World';
